@@ -19,6 +19,9 @@ Route::get('/logout', 'UserController@LogJur');
 Route::get('/presma/{id}', 'UserController@getPresma');
 Route::get('/bpm/{id}', 'UserController@getBpm');
 Route::get('/konfirmasi', 'UserController@StorePilihan');
+Route::get('/cek',function(){
+
+});
 
 /* Area Post */
 Route::post('/login', 'UserController@loginJurusan');
